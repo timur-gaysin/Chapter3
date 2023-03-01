@@ -12,7 +12,7 @@ simpleExample(){
 func passParameters(closure: (Int, Int) -> Void){
     print("First line")
     closure(2,8)
-    print("First line")
+    print("Second line")
 }
 
 passParameters{ x,y in
